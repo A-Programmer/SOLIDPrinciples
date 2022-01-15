@@ -11,10 +11,7 @@ namespace SOLID.Services
         {
             Database.Employees.Add(employee);
 
-            using (var sr = new StreamWriter("log.txt"))
-            {
-                sr.WriteLine("New employee has been added to database.");
-            }
+            Logger.Log("New employee has been added to the database.");
         }
     }
 }
