@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="01-SingleResponsibility\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01-SingleResponsibility\" />
+  </ItemGroup>
 </Project>
