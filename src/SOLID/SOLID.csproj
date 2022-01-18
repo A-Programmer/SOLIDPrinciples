@@ -7,8 +7,10 @@
 
   <ItemGroup>
     <None Remove="01-SingleResponsibility\" />
+    <None Remove="02-OpenClosedPrinciple\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="01-SingleResponsibility\" />
+    <Folder Include="02-OpenClosedPrinciple\" />
   </ItemGroup>
 </Project>
